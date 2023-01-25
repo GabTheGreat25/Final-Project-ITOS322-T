@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-#container {
+#box {
   position: relative;
 }
 
-#container::before {
+#box::before {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @media (max-width: 425px) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+#btn-search {
+  display: grid;
+  justify-content: start;
+
+  @media (max-width: 425px) {
+    justify-content: center;
+  }
 }
