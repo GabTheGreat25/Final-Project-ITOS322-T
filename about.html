@@ -7,13 +7,13 @@
     <title>Gab's Blog Website</title>
   </head>
 
-  <body id="container">
+  <body id="box" class="bg-neutral-50">
     <div class="py-3 px-3 md:px-0 bg-secondary-default">
       <div class="container m-auto">
         <nav class="md:flex md:justify-between items-center">
           <div class="flex justify-between items-center">
-            <h3 class="text-3xl text-white my-3 md:px-3">VloggersTV</h3>
-            <div class="text-xl cursor-pointer text-white md:hidden">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
               <svg
                 id="show"
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,14 +34,24 @@
 
           <!-- now to make it responsive -->
           <div class="hidden md:flex flex-col md:flex-row" id="navbar">
-            <a href="index.html" class="text-xl text-white my-3 md:px-3"
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
               >Home</a
             >
-            <a href="blog.html" class="text-xl text-white my-3 md:px-3">Blog</a>
-            <a href="about.html" class="text-xl text-white my-3 md:px-3"
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blog</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
               >About</a
             >
-            <a href="contact.html" class="text-xl text-white my-3 md:px-3"
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
               >Contact</a
             >
           </div>
@@ -50,7 +60,7 @@
       <hr />
       <div class="text-center my-20">
         <div class="mx-auto w-10/12 md:w-7/12">
-          <p class="text-xl md:text-3xl font-bold text-white my-5">
+          <p class="text-xl md:text-3xl font-bold text-neutral-primary my-5">
             An Introduction About Myself
           </p>
         </div>
@@ -118,7 +128,7 @@
                 class="outline-primary-t3 text-neutral-secondary border w-full my-2 py-2 px-3 rounded-lg"
               />
               <button
-                class="btn hover:bg-primary-default bg-primary-t2 px-4 rounded-lg text-white uppercase py-2 float-right"
+                class="text-neutral-50 hover:bg-primary-default bg-primary-t2 px-4 rounded-lg bg-neutral-50 uppercase py-2 float-right"
               >
                 Subscribe
               </button>
@@ -135,42 +145,64 @@
           class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
         >
           <div class="my-3">
-            <h3 class="text-4xl text-white">Pentera</h3>
-            <h3 class="my-4 text-2xl text-white">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-2xl text-neutral-50">
               Lorem ipsum dolor sit, amet consectetur
             </h3>
-            <p class="my-2 text-white">
+            <p class="my-2 text-neutral-50">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
               itaque est qui in odio optio libero aut. Corporis maxime tenetur
               autem aliquid earum tempora eaque quis sed voluptatum dolores.
               Maxime.
             </p>
-            <button class="underline font-bold text-md hover:text-white">
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
               Read More
             </button>
           </div>
           <div class="my-3">
-            <h3 class="text-3xl text-white">UseFull Link</h3>
+            <h3 class="text-3xl text-neutral-50">UseFull Link</h3>
             <ul>
-              <a href="/"><li class="my-3 text-white text-xl">Home</li></a>
+              <a href="/"
+                ><li
+                  class="my-3 hover:text-neutral-primary text-neutral-50 text-xl"
+                >
+                  Home
+                </li></a
+              >
               <a href="/blog.html"
-                ><li class="my-3 text-white text-xl">Blog</li></a
+                ><li
+                  class="my-3 hover:text-neutral-primary text-neutral-50 text-xl"
+                >
+                  Blog
+                </li></a
               >
               <a href="/about.html"
-                ><li class="my-3 text-white text-xl">About</li></a
+                ><li
+                  class="my-3 hover:text-neutral-primary text-neutral-50 text-xl"
+                >
+                  About
+                </li></a
               >
               <a href="/contact.html"
-                ><li class="my-3 text-white text-xl">Contact</li></a
+                ><li
+                  class="my-3 hover:text-neutral-primary text-neutral-50 text-xl"
+                >
+                  Contact
+                </li></a
               >
             </ul>
           </div>
           <div class="my-3">
-            <h3 class="text-3xl text-white">What I Use To Make This</h3>
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
             <ul>
-              <li class="my-3 text-white text-xl">Tailwind</li>
-              <li class="my-3 text-white text-xl">SCSS</li>
-              <li class="my-3 text-white text-xl">HTML</li>
-              <li class="my-3 text-white text-xl">JS</li>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
             </ul>
           </div>
         </div>
