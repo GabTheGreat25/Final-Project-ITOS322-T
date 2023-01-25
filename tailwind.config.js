@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // prefix: "tw-",
   content: ["./*.{html,js}"],
   theme: {
     screens: {
@@ -15,20 +14,20 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#39B54A",
-          variant: "#108043",
-          t2: "#4DC15F",
-          t3: "#62CC74",
-          t4: "#76D889",
-          t5: "#8AE39E",
+          default: "#EA2027",
+          variant: "#ea2027e8",
+          t2: "#ea2027c3",
+          t3: "#ea20278f",
+          t4: "#ea20275f",
+          t5: "#ea202733",
         },
         secondary: {
-          DEFAULT: "#FBB040",
-          variant: "#DAB038",
-          t2: "#FBBA59",
-          t3: "#FBC472",
-          t4: "#FAD8A5",
-          t5: "#FAE2BE",
+          default: "#b33939",
+          variant: "#b33939d8",
+          t2: "#b33939bc",
+          t3: "#b3393991",
+          t4: "#b3393963",
+          t5: "#b339392c",
         },
         neutral: {
           primary: "#212B36",
