@@ -1,15 +1,388 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/output.css" rel="stylesheet" />
+    <title>Gab's Blog Website</title>
   </head>
   <body id="container">
-    <h1
-      class="tw-text-3xl tw-font-bold tw-text-center tw-bg-green-500 tw-text-white"
-    >
-      Hello world!
-    </h1>
+    <div class="py-3 px-3 md:px-0" id="nav-cover-1">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-white my-3 md:px-3">VloggersTV</h3>
+            <div class="text-md cursor-pointer text-white md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a href="index.html" class="text-xl text-white my-3 md:px-3"
+              >Home</a
+            >
+            <a href="blog.html" class="text-xl text-white my-3 md:px-3">Blog</a>
+            <a href="about.html" class="text-xl text-white my-3 md:px-3"
+              >About</a
+            >
+            <a href="contact.html" class="text-xl text-white my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-white my-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+            odio aspernatur.
+          </p>
+          <p class="text-xl text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+            molestias blanditiis laboriosam, earum, maxime facere alias a vel
+            aspernatur consequatur tempore delectus magnam quis. Et ipsa iure
+            reprehenderit vitae laborum.
+          </p>
+          <p class="flex items-center justify-center my-5">
+            <img
+              src="../images/Gab-Laptop.jpg"
+              class="w-20 h-20 rounded-full"
+              alt=""
+            />
+            <span class="ml-3 text-white">Gabriel Mendoza</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about Section -->
+    <div class="container mx-auto my-20">
+      <h1 class="text-5xl underline mx-4">About Us</h1>
+      <div
+        class="grid grid-col xl:grid-cols-2 mx-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-6 my-9 justify-center"
+      >
+        <div>
+          <img
+            src="../images/Gab.jpg"
+            class="w-full h-full rounded-lg"
+            alt=""
+          />
+        </div>
+        <div>
+          <h1 class="text-4xl font-bold mb-3">
+            Detail of Admin of this website
+          </h1>
+          <p class="text-xl my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            dolorum perferendis adipisci ducimus sed? Earum sed amet velit
+            necessitatibus consectetur, consequatur maxime, ducimus numquam
+            eveniet natus cum. Veniam, porro magni.
+          </p>
+          <p class="text-xl my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            dolorum perferendis adipisci ducimus sed? Earum sed amet velit
+            necessitatibus consectetur, consequatur maxime, ducimus numquam
+            eveniet natus cum. Veniam, porro magni.
+          </p>
+          <p class="text-xl my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            dolorum perferendis adipisci ducimus sed? Earum sed amet velit
+            necessitatibus consectetur, consequatur maxime, ducimus numquam
+            eveniet natus cum. Veniam, porro magni.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- latest blog section -->
+    <div class="container mx-auto my-20">
+      <h1 class="text-5xl underline mx-4">Latest Blog</h1>
+      <div
+        class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3 my-9 justify-center"
+      >
+        <div class="p-4 border">
+          <img src="../images/img (1).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (2).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (4).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (4).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (2).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (1).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- subscribe Section -->
+    <div class="container mx-auto mb-10 p-10">
+      <div class="bg-gray-200">
+        <div class="grid grid-cols-1 md:grid-cols-2 p-5 gap-5">
+          <div class="my-4">
+            <h3 class="text-3xl">Subscribe The NewsLetter</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequuntur maxime quis reiciendis vitae inventore enim ullam
+              labore repellendus repudiandae dolore sint quo laborum, laudantium
+              eius minima, quam eum asperiores amet!
+            </p>
+          </div>
+          <div class="my-4">
+            <form action="" class="my-4">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Subscribe For NewsLatter"
+                class="outline-fuchsia-800 border w-full my-2 py-2 px-3 rounded-lg"
+              />
+              <button
+                class="btn hover:bg-stone-800 bg-stone-600 px-4 rounded-lg text-white uppercase py-2"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- popular post -->
+    <div class="container mx-auto my-20">
+      <h1 class="text-5xl underline mx-4">Popular Blog</h1>
+      <div
+        class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3 my-9 justify-center"
+      >
+        <div class="p-4 border">
+          <img src="../images/img (1).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (2).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (4).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (4).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (2).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+        <div class="p-4 border">
+          <img src="../images/img (1).avif" class="w-full rounded-lg" alt="" />
+          <p class="text-xl mt-3">
+            Lorem ipsum, dolor sit amet consectetur.....
+          </p>
+          <p class="text-md cursor-pointer text-purple-800 mt-2">Category 1</p>
+          <p class="text-gray-500 my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            excepturi mollitia repellat id, numquam pariatur tempore....
+          </p>
+          <button class="underline font-bold text-xl hover:text-purple-700">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-stone-500">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-white">Pentera</h3>
+            <h3 class="my-4 text-2xl text-white">
+              Lorem ipsum dolor sit, amet consectetur
+            </h3>
+            <p class="my-2 text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+              itaque est qui in odio optio libero aut. Corporis maxime tenetur
+              autem aliquid earum tempora eaque quis sed voluptatum dolores.
+              Maxime.
+            </p>
+            <button class="underline font-bold text-md hover:text-white">
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-white">UseFull Link</h3>
+            <ul>
+              <li class="my-3 text-white text-xl">Home</li>
+              <li class="my-3 text-white text-xl">Blog</li>
+              <li class="my-3 text-white text-xl">Contact</li>
+              <li class="my-3 text-white text-xl">About</li>
+            </ul>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-white">Popular Category</h3>
+            <ul>
+              <li class="my-3 text-white text-xl">Stylelife</li>
+              <li class="my-3 text-white text-xl">category 1</li>
+              <li class="my-3 text-white text-xl">category 2</li>
+              <li class="my-3 text-white text-xl">category 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+    </script>
   </body>
 </html>
