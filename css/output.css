@@ -910,25 +910,6 @@ video {
   height: 100%;
 }
 
-#nav-cover-1 {
-  background: rgba(0, 0, 0, 0.5) url("./images/Navbar-cover.jpg");
-  background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-#nav-cover-2 {
-  background: rgba(0, 0, 0, 0.5) url("./images/Navbar-cover.jpg");
-  background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 32.55rem;
-  background-size: cover;
-  background-position: center;
-}
-
 .hover\:bg-primary-default:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 32 39 / var(--tw-bg-opacity));
