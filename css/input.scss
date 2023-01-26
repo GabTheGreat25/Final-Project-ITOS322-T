@@ -24,7 +24,7 @@
     grid-template-columns: 2fr 1fr;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
   }
@@ -34,7 +34,15 @@
   display: grid;
   justify-content: start;
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     justify-content: center;
+  }
+}
+
+#spacing {
+  margin: 0 5rem;
+
+  @media (max-width: 600px) {
+    margin: 0 2rem;
   }
 }
