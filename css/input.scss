@@ -46,3 +46,13 @@
     margin: 0 2rem;
   }
 }
+
+#pic-adjustment {
+  font-size: x-large;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+
+  @media (max-width: 400px) {
+    font-size: large;
+  }
+}
