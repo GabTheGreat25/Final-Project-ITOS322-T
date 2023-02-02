@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            WELCOME TO MY FIRST WEEK
+          </p>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      My Computer And Laptop Ideas
+    </h1>
+    <h1 class="py-4 text-center text-2xl font-semibold text-neutral-600">
+      As a gamer and software developer, here are the features I prefer.
+    </h1>
+
+    <!-- Cards -->
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/intel-core-i9.jpg" alt="CPU" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            CPU | Intel Core i9-13900K
+          </div>
+          <p class="text-gray-700 text-base">
+            24 cores (8 P-cores + 16 E-cores) and 32 threads. Integrated Intel
+            UHD Graphics 770 included Performance hybrid architecture integrates
+            two core microarchitectures, prioritizing and distributing workloads
+            to optimize performance Up to 5.8 GHz unlocked. 36M Cache Compatible
+            with Intel 600 series and 700 series chipset-based motherboards
+            Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel
+            Optane Memory support. No thermal solution included.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#CPU</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Intel</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$599</span
+          >
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="./images/Asus-ROG-Strix-ZZ90-F.png"
+          alt="Motherboard"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Motherboard | Asus ROG Strix ZZ90-F
+          </div>
+          <p class="text-gray-700 text-base">
+            Intel LGA 1700 socket: Ready for 13th Gen Intel Core processors &
+            12th Gen Intel Core, Pentium Gold and Celeron Processors Robust
+            Power Solution: 16 + 1 power solution rated for 90A per stage with
+            with dual ProCool II power connectors, high-quality alloy chokes,
+            and durable capacitors to support multi-core processors.Ample M.2
+            Support: One PCIe 4.0 M.2 slot with a heatsink and backplate, and
+            three PCIe 4.0 M.2 slots with heatsinks. Abundant Connectivity: USB
+            3.2 Gen 2x2 Type-C rear I/O port and additional additional
+            front-panel connector with PD 3.0 up to 30W, USB 3.2 Gen 2 and Gen 1
+            ports, PCIe 5.0 x16 SafeSlot, HDMI 2.1, and DisplayPort 1.4.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Motherboard</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#ASUS ROG</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$479</span
+          >
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="./images/GPU.jpg" alt="GPU" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            GPU | ASUS ROG Strix GeForce RTX® 4090
+          </div>
+          <p class="text-gray-700 text-base">
+            NVIDIA Ada Lovelace Streaming Multiprocessors: Up to 2x performance
+            and power efficiency. 4th Generation Tensor Cores: Up to 2X AI
+            performance. 3rd Generation RT Cores: Up to 2X ray tracing
+            performance. Axial-tech fans scaled up for 23% more airflow. New
+            patented vapor chamber with milled heatspreader for lower GPU temps.
+            3.5-slot design: massive fin array optimized for airflow from the
+            three Axial-tech fans, Diecast shroud, frame, and backplate add
+            rigidity and are vented to further maximize airflow and heat
+            dissipation. Digital power control with high-current power stages
+            and 15K capacitors to fuel maximum performance. GPU Tweak III
+            software provides intuitive performance tweaking, thermal controls,
+            and system monitoring.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#GPU</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#ASUS ROG</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$1,799</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="./images/TRIDENT-Z5.jpg" alt="RAM" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            RAM| G.Skill Trident Z5 RGB DDR5 (2 x 16GB) DDR5
+          </div>
+          <p class="text-gray-700 text-base">
+            Trident Z5 RGB Series, designed for Intel Z690/Z790 Series Chipset
+            with 12th/13th Gen Intel Core CPUs or newer Brand: G.Skill, Series:
+            Trident Z5 RGB, Model: F5-6400J3239G16GA2-TZ5RS. 32GB kit containing
+            2 x 16GB modules, DDR5-6400, 288-Pin, CAS Latency CL32
+            (32-39-39-102) at 1.40V (Intel XMP) ECC: No, Dual Channel Kit,
+            Recommended Use: High Performance or Gaming Memory. Memory kits will
+            boot at the SPD speed at default BIOS settings with compatible
+            hardware. For memory kits with XMP, enable XMP profile in BIOS to
+            reach the rated potential XMP overclock speed of the memory kit,
+            subject to the use of compatible hardware. Reaching the rated XMP
+            overclock speed and system stability will depend on the
+            compatibility and capability of the motherboard and CPU used.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#RAM</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Trident</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$199 x 2</span
+          >
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/WD-Black.jpg" alt="Storage" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Storage | WD Black SN850X (2TB)
+          </div>
+          <p class="text-gray-700 text-base">
+            Intel LGA 1700 socket: Ready for 13th Gen Intel Core processors &
+            12th Gen Intel Core, Pentium Gold and Celeron Processors Robust
+            Power Solution: 16 + 1 power solution rated for 90A per stage with
+            with dual ProCool II power connectors, high-quality alloy chokes,
+            and durable capacitors to support multi-core processors.Ample M.2
+            Support: One PCIe 4.0 M.2 slot with a heatsink and backplate, and
+            three PCIe 4.0 M.2 slots with heatsinks. Abundant Connectivity: USB
+            3.2 Gen 2x2 Type-C rear I/O port and additional additional
+            front-panel connector with PD 3.0 up to 30W, USB 3.2 Gen 2 and Gen 1
+            ports, PCIe 5.0 x16 SafeSlot, HDMI 2.1, and DisplayPort 1.4.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Storage</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#WD Black</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$214</span
+          >
+        </div>
+      </div>
+
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/Fractal-Design.jpg" alt="GPU" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Case| Fractal Design Meshify 2
+          </div>
+          <p class="text-gray-700 text-base">
+            NVIDIA Ada Lovelace Streaming Multiprocessors: Up to 2x performance
+            and power efficiency. 4th Generation Tensor Cores: Up to 2X AI
+            performance. 3rd Generation RT Cores: Up to 2X ray tracing
+            performance. Axial-tech fans scaled up for 23% more airflow. New
+            patented vapor chamber with milled heatspreader for lower GPU temps.
+            3.5-slot design: massive fin array optimized for airflow from the
+            three Axial-tech fans, Diecast shroud, frame, and backplate add
+            rigidity and are vented to further maximize airflow and heat
+            dissipation. Digital power control with high-current power stages
+            and 15K capacitors to fuel maximum performance. GPU Tweak III
+            software provides intuitive performance tweaking, thermal controls,
+            and system monitoring.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Case</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Meshify 2</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$159</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 7-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="./images/Corsair.jpg" alt="PSU" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            PSU | Corsair RM750x
+          </div>
+          <p class="text-gray-700 text-base">
+            80 PLUS Gold Certified: High efficiency operation for lower power
+            consumption, less noise and cooler temperatures. Tuned for Low Noise
+            Operation: A specially set fan curve ensures that, even at full
+            load, fan noise is kept to a minimum. Zero RPM Fan Mode: At low and
+            medium loads the cooling fan switches off entirely for near-silent
+            operation. atx12v v2.4 and eps 2.92 standards and is backward
+            compatible with atx12v 2.2 2.31 and atx12v 2.01 systems. 100% All
+            Japanese 105°C Capacitors: Premium internal components ensure
+            unwavering power delivery and long-term reliability. Fully Modular
+            Cables: Only connect the cables your system needs, making clean and
+            tidy builds easier. Fan size : 135mm, MTBF hours : 100,000 hours.
+            iCUE Compatibility : No, Intel C6C7 sleep state compatible : Yes,
+            Modern Standby Compatible : No.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#PSU</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Corsair</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$114</span
+          >
+        </div>
+      </div>
+      <!--Card 8-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/WD-Black.jpg" alt="Cooler" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Cooler | Corsair iCUE H100i PRO XT RGB Liquid CPU Cooler 240mm
+          </div>
+          <p class="text-gray-700 text-base">
+            Magnetic Levitation Fans: Two 120mm CORSAIR ML Series fans deliver
+            improved airflow for extreme CPU cooling performance. Dynamic
+            Multi-Zone RGB Pump Head: 16 Individually addressable RGB LEDs light
+            up the pump head to produce stunning, customizable lighting effects
+            to match your build. Extreme CPU Cooling: Experience incredible
+            cooling performance, with each fan running from 400 to 2,400 RPM
+            while in operation. Zero RPM Mode: Zero RPM cooling profiles in
+            CORSAIR iCUE software allow fans to stop entirely at low
+            temperatures, eliminating fan noise. Powerful iCUE Software: Control
+            and synchronise your cooler's RGB lighting with all iCUE compatible
+            devices, monitor CPU and coolant temperatures and adjust fan and
+            pump speeds. Cooling Socket Support : Intel 1200, 1150, 1151, 1155,
+            1156, 1366, 2011, 2066, AMD AM4, AM3, AM2, sTRX4, sTR4.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Storage</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#WD Black</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$214</span
+          >
+        </div>
+      </div>
+
+      <!--Card 9-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/monitor.png" alt="Monitor" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Monitor | Asus ROG Swift PG32UQX
+          </div>
+          <p class="text-gray-700 text-base">
+            32-inch 4K (3840 x 2160) mini LED gaming monitor with 144 Hz refresh
+            rate designed for professional gamers. Aspect Ratio is 16:9; Viewing
+            Angle (CR≧10) is 178°/ 178°; Brightness (Max) is 500cd/㎡ and
+            Brightness (HDR, Peak) is 1,400 cd/㎡ G-SYNC ULTIMATE features the
+            latest NVIDIA G-SYNC processors to deliver the best HDR gaming
+            experience. Full Array Local Dimming (FALD) backlight delivers 1152
+            independent LED zones and peak brightness 1400 nits with DisplayHDR
+            1400 certification. Quantum-dot display with a wide DCI-P3 98% color
+            gamut provides realistic colors and smoother gradation. With
+            LiveDash* OLED display on the front deco bar, you could choose to
+            display either a customized icon image or the system information
+            such as CPU temperature, GPU info and more Robust connectivity with
+            DisplayPort 1.4 DSC, HDMI (v2.0) x3, USB 3.1 x2, and USB 2.0 ports
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Monitor</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#ASUS ROG</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$2999</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 10-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="./images/Swift.jpg" alt="Mouse" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Mouse | Swiftpoint Z
+          </div>
+          <p class="text-gray-700 text-base">
+            LIKE A GAMING KEYBOARD AND MOUSE COMBO ALL IN ONE - Loaded with 13
+            buttons, 5 pressure sensitive deep click buttons, side buttons,
+            gyroscopic gesture control, vibration feedback, OLED screen, RGB LED
+            & onboard memory - it's not surprising the Z was voted best gaming
+            mouse at CES. Unique button placement offers a better way of
+            clicking buttons giving you unrivalled speed & precision. Access
+            dozens of different actions while barely moving your fingers -
+            Perfect for FPS, MOBA, RTS & MMO gaming. PRESSURE SENSITIVE DEEP
+            CLICK BUTTONS - add at least 5 extra buttons & new dimension to your
+            game. Click for one action, deep click for a 2nd or use them
+            together for a combo. Vibration feedback indicates you've triggered
+            a deep click. Fly a plane with the analog joystick function powered
+            by the gyro! Store your settings directly on the mouse's onboard
+            memory & check the OLED display for quick config, DPI, profile &
+            more. Match your color theme with the RGB LED and dominate the
+            competition.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Mouse</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Swift</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$199</span
+          >
+        </div>
+      </div>
+      <!--Card 11-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="./images/corsairK.png" alt="Keyboard" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Keyboard | Corsair K100
+          </div>
+          <p class="text-gray-700 text-base">
+            The Corsair K100 RGB is the pinnacle of Corsair keyboards, offering
+            the cutting-edge performance, style, durability, and customization
+            that gamers need to stand above the rest. The centerpiece of your
+            gaming setup, the Corsair K100 RGB boasts a refined design bolstered
+            by a durable aluminum frame, dynamic per-key RGB backlighting, and a
+            44-zone three-sided LightEdge. Powered by Corsair AXON
+            Hyper-Processing Technology, enabling Corsair's most advanced gaming
+            keyboard experience by delivering up to 4x faster throughput with
+            native 4,000Hz hyper-polling and 4,000Hz key scanning, while
+            simultaneously driving up to 20-layer lighting effects. A
+            programmable iCUE control wheel gives you command over backlighting,
+            media jogging, and more through Corsair iCUE software, customizable
+            to perform actions in games and applications
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Keyboard</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Corsair</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$250</span
+          >
+        </div>
+      </div>
+
+      <!--Card 12-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full px-10" src="./images/zephyrus.jpg" alt="Laptop" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-center">
+            Laptop | ASUS ROG Zephyrus G14
+          </div>
+          <p class="text-gray-700 text-base">
+            Display: 14" 120Hz 3ms IPS-Level WQXGA (2560 x 1600) Anti-Glare
+            Display Graphics Card: AMD Radeon RX 6700S 8GB GDDR6 at 80W (105W
+            with AMD SmartShift) Processor: AMD Ryzen 9 6900HS 8 Cores
+            (3.3GHz-4.9GHz, 16MB Cache, 35W) RAM: 16GB (8GB onboard + 8GB) DDR5
+            4800MHz | Hard Drive: 1TB PCIe NVMe SSD OS: Microsoft Windows 11
+            Home.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Laptop</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >#Zephyrus</span
+          >
+          <span
+            class="inline-block bg-red-700 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >$1650</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-2xl text-neutral-50">
+              Lorem ipsum dolor sit, amet consectetur
+            </h3>
+            <p class="my-2 text-neutral-50">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+              itaque est qui in odio optio libero aut. Corporis maxime tenetur
+              autem aliquid earum tempora eaque quis sed voluptatum dolores.
+              Maxime.
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Naviagation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+    </script>
+  </body>
+</html>
