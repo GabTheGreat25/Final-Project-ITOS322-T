@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            Introduction To My Website
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Week 1 -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-neutral-900">
+      Welcome To My Introduction Video
+    </h1>
+    <video
+      class="block mx-auto pb-3"
+      width="1200"
+      controls
+      autoplay
+      loop
+      playsinline
+    >
+      <source
+        src="https://github.com/GabTheGreat25/Final-Project-ITOS322-T/blob/main/videos/week1.mp4?raw=true"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-2xl text-neutral-50">
+              Lorem ipsum dolor sit, amet consectetur
+            </h3>
+            <p class="my-2 text-neutral-50">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+              itaque est qui in odio optio libero aut. Corporis maxime tenetur
+              autem aliquid earum tempora eaque quis sed voluptatum dolores.
+              Maxime.
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Naviagation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+    </script>
+  </body>
+</html>

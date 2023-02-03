@@ -95,16 +95,18 @@
       >
         <div class="p-4 border">
           <span class="grid justify-center content-center">
-            <a href="">
+            <a href="/introduction.html">
               <img src="./images/Play-now.gif" alt="gif" />
             </a>
           </span>
           <p class="text-xl text-neutral-900 mt-3">
             Lorem ipsum, dolor sit amet consectetur.....
           </p>
-          <p class="text-md cursor-pointer text-primary-default mt-2">
-            Introduction
-          </p>
+          <a href="/introduction.html">
+            <p class="text-md text-primary-default mt-2">
+              Introduction to my website
+            </p>
+          </a>
           <p class="text-neutral-300 my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             excepturi mollitia repellat id, numquam pariatur tempore....
@@ -122,7 +124,9 @@
           <p class="text-xl text-neutral-900 mt-3">
             Lorem ipsum, dolor sit amet consectetur.....
           </p>
-          <p class="text-md cursor-pointer text-primary-default mt-2">Week 1</p>
+          <a href="week1.html">
+            <p class="text-md text-primary-default mt-2">Week 1</p>
+          </a>
           <p class="text-neutral-300 my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             excepturi mollitia repellat id, numquam pariatur tempore....
@@ -463,15 +467,6 @@
           navbar.classList.remove("flex");
           navbar.classList.add("hidden");
         }
-
-        // Selecting the iframe element
-        var iframe = document.getElementById("myIframe");
-
-        // Adjusting the iframe height onload event
-        iframe.onload = function () {
-          iframe.style.height =
-            iframe.contentWindow.document.body.scrollHeight + "px";
-        };
       });
     </script>
   </body>
