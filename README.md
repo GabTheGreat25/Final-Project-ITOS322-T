@@ -1,4 +1,4 @@
-# How To Run This Project
+# How To Run This Project Locally
 
 ## Run Npm i or Npm install
 
