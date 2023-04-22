@@ -160,6 +160,15 @@
       </div>
     </div>
 
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
+
     <!-- footer section -->
     <footer class="container-fluid bg-secondary-default">
       <div class="container mx-auto p-5">
@@ -237,6 +246,18 @@
           navbar.classList.remove("flex");
           navbar.classList.add("hidden");
         }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
       });
     </script>
   </body>

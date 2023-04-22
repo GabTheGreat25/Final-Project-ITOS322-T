@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/output.css" rel="stylesheet" />
     <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Gab's Blog Website</title>
   </head>
 
@@ -860,9 +861,9 @@
       Welcome To My 2nd Week Video In Number System
     </h1>
     <iframe
-      class="block mx-auto pb-3"
-      width="1300"
-      height="600"
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
       src="https://www.youtube.com/embed/AIIduUWQ5PI"
       title="Week 2 Number System"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1216,9 +1217,9 @@
       Welcome To My 2nd Week Video In Data Format
     </h1>
     <iframe
-      class="block mx-auto pb-3"
-      width="1300"
-      height="600"
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
       src="https://www.youtube.com/embed/F3kMk6ksKTQ"
       title="Week 2 Data Format"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1711,14 +1712,23 @@
       Welcome To My 2nd Week Video In Operating System
     </h1>
     <iframe
-      class="block mx-auto pb-3"
-      width="1300"
-      height="600"
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
       src="https://www.youtube.com/embed/wuVtJ_x24p0"
       title="Week 2 Operating System"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     ></iframe>
+
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
 
     <!-- footer section -->
     <footer class="container-fluid bg-secondary-default">
@@ -1797,6 +1807,18 @@
           navbar.classList.remove("flex");
           navbar.classList.add("hidden");
         }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
       });
     </script>
   </body>

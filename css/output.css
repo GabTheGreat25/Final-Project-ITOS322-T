@@ -563,6 +563,110 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-64 {
+  left: 16rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
+.right-3\/4 {
+  right: 75%;
+}
+
+.left-3\/4 {
+  left: 75%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-1\/3 {
+  left: 33.333333%;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
+.left-2\/4 {
+  left: 50%;
+}
+
+.left-2\.5 {
+  left: 0.625rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.-left-96 {
+  left: -24rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.right-9 {
+  right: 2.25rem;
+}
+
+.right-1\/4 {
+  right: 25%;
+}
+
+.right-1\/2 {
+  right: 50%;
+}
+
+.-right-1\/2 {
+  right: -50%;
+}
+
+.-right-1\/4 {
+  right: -25%;
+}
+
+.left-2\/3 {
+  left: 66.666667%;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.right-1\/3 {
+  right: 33.333333%;
+}
+
+.-right-1\/3 {
+  right: -33.333333%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -695,6 +799,22 @@ video {
   height: 5rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -721,6 +841,18 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .transform {
@@ -918,6 +1050,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pb-56 {
+  padding-bottom: 14rem;
 }
 
 .text-center {
@@ -1156,7 +1292,33 @@ video {
   color: #ea2027c3;
 }
 
+@media (min-width: 411px) {
+  .xs\:h-1\/2 {
+    height: 50%;
+  }
+
+  .xs\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xs\:w-0 {
+    width: 0px;
+  }
+}
+
 @media (min-width: 640px) {
+  .sm\:h-3\/4 {
+    height: 75%;
+  }
+
+  .sm\:h-full {
+    height: 100%;
+  }
+
+  .sm\:h-1\/2 {
+    height: 50%;
+  }
+
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1186,8 +1348,16 @@ video {
     display: none;
   }
 
+  .md\:h-3\/4 {
+    height: 75%;
+  }
+
   .md\:w-7\/12 {
     width: 58.333333%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:grid-cols-2 {
@@ -1239,6 +1409,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
