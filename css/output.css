@@ -719,6 +719,11 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -761,6 +766,10 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .block {
@@ -853,6 +862,10 @@ video {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .transform {
