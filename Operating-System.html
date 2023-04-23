@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            Welcome To My Operating System
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro Operating System -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      What is a Operating System
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      An operating system (OS) is a software program that manages the hardware
+      and software resources of a computer. It acts as an intermediary between
+      the user and the computer hardware, providing a consistent and
+      standardized interface for the user to interact with the computer. The
+      operating system performs tasks such as managing the file system,
+      controlling access to hardware devices, managing memory and processor
+      usage, and providing security and stability. Examples of popular operating
+      systems include Microsoft Windows, Apple macOS, and various distributions
+      of the Linux operating system. Each operating system provides a unique set
+      of features and user interface, but they all perform the fundamental tasks
+      of managing the computer's resources and providing a platform for running
+      software applications.
+    </h1>
+
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Importance of Operating System in a Computer
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Operating systems are essential for the functioning of a computer, serving
+      as a bridge between the hardware and software, managing and allocating
+      resources such as memory and processing power, providing an interface for
+      users to interact with the computer, and ensuring the security and
+      stability of the system.
+    </h1>
+
+    <!-- Cards -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Types of Operating System
+    </h1>
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Single-User, Single-Task Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Single-User, Single-Task Operating Systems are designed to operate
+            in simple and low-power devices, such as embedded systems and small
+            micro-controllers. These systems are usually limited in terms of
+            memory, processing power, and storage, and are typically used in
+            applications where a small and efficient operating system is
+            required. Examples of Single-User, Single-Task Operating Systems
+            include RTOS (Real-Time Operating Systems), firmware, and device
+            drivers. These systems are also commonly used in devices such as
+            printers, scanners, and other peripheral devices that require a
+            basic operating system to function. Due to the limited resources of
+            these systems, they can only handle one task at a time and are not
+            suitable for more complex or multi-tasking environments. In such
+            cases, multi-tasking operating systems are more appropriate.
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Multi-User Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Multi-user operating systems are designed to allow multiple users to
+            access the same computer at the same time and share its resources.
+            These operating systems are typically found in large organizations,
+            universities, and research institutions, where multiple users need
+            to use the same computer resources for their individual tasks. The
+            operating system provides each user with a separate environment,
+            allowing them to run their own programs and access the computer's
+            resources, such as memory and storage, without interfering with
+            other users. This allows for more efficient use of the computer's
+            resources and enables multiple users to perform their tasks
+            simultaneously. Some examples of multi-user operating systems
+            include Unix and Linux, which are widely used in server
+            environments, and Microsoft Windows Server, which is used in many
+            businesses and organizations.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Multi-Tasking Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Multi-Tasking Operating Systems are an important type of operating
+            systems that are designed to enhance the efficiency of a computer
+            system. They allow multiple programs to run at the same time on a
+            single computer by dividing the available resources, such as memory
+            and processing power, among the different programs. This allows
+            users to perform multiple tasks or run multiple applications
+            simultaneously, without the need to switch between them, which can
+            be time-consuming and inefficient. The operating system schedules
+            and manages the execution of these tasks and programs, ensuring that
+            each one gets the resources it needs to run efficiently.
+            Multi-tasking operating systems are also designed to prioritize
+            tasks and allocate resources based on the needs of each program,
+            making sure that important tasks receive the necessary resources
+            first.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Distributed Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            A Distributed Operating System is a type of operating system that is
+            designed to operate on a network of multiple computers and manage
+            the distribution of tasks and resources among them. These operating
+            systems work by dividing the work into smaller tasks and allocating
+            each task to a different computer in the network. This allows the
+            system to take advantage of the processing power and memory of all
+            the computers connected in the network, resulting in increased
+            efficiency and performance. Distributed operating systems are
+            commonly used in large-scale computing systems, such as cloud
+            computing and high-performance computing, to manage the distribution
+            of computational resources and tasks among multiple computers. They
+            also provide a high level of reliability and availability, as the
+            system can continue to operate even if one of the computers in the
+            network fails.
+          </p>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Real-Time Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Real-Time Operating Systems (RTOS) are specifically designed to
+            handle time-critical tasks, where precise timing and immediate
+            response is essential. These operating systems prioritize processing
+            speed and accuracy over other system requirements such as memory
+            usage, disk space, or processing power. RTOSs are commonly used in
+            industries such as aerospace, defense, and automotive where precise
+            control over time-sensitive processes is crucial, such as in the
+            control of aircraft navigation systems, missile guidance systems,
+            and automotive systems for collision avoidance and active safety.
+            RTOSs are designed to meet strict real-time requirements, including
+            fast response times, predictable behavior, and deterministic
+            processing, which allows these systems to make time-critical
+            decisions with the required level of accuracy and speed.
+          </p>
+        </div>
+      </div>
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Mobile Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Mobile operating systems are designed specifically for mobile
+            devices, such as smartphones and tablets. They are optimized for the
+            smaller screen sizes and limited resources of these devices, and are
+            usually focused on providing a smooth and user-friendly experience.
+            Mobile operating systems typically include features such as
+            touch-based interfaces, mobile app stores, and support for a variety
+            of sensors and communication technologies, such as Wi-Fi, GPS, and
+            cellular data. Some of the most popular mobile operating systems
+            include Apple's iOS, Google's Android, and Microsoft's Windows
+            Phone. These operating systems are crucial to the operation and
+            functionality of mobile devices, as they provide the underlying
+            software infrastructure that enables the devices to run
+            applications, connect to the internet, and perform a wide range of
+            tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 7-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Embedded Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Embedded Operating Systems (EOS) are specifically designed to
+            function on low-power, compact devices, such as those utilized in
+            smart home systems, medical devices, and industrial control systems.
+            These systems are typically required to operate in real-time,
+            managing multiple tasks simultaneously with limited resources, and
+            therefore have a small memory footprint and limited features
+            compared to general-purpose operating systems. EOSs are optimized
+            for specific applications and use cases and are also known for their
+            reliability, security, and efficiency, making them a popular choice
+            for critical systems where downtime and data loss can have serious
+            consequences.
+          </p>
+        </div>
+      </div>
+      <!--Card 8-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Server Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Server operating systems are specifically optimized for running on
+            servers, which are powerful computers that provide shared resources
+            and services to other computers and devices on a network. They are
+            built with robust security features and the ability to manage large
+            amounts of data, as well as multiple users and devices. Some
+            examples of server operating systems include Microsoft Windows
+            Server, Linux distributions such as Ubuntu Server, and macOS Server.
+            These operating systems are designed to provide centralized
+            administration and management of resources, as well as a wide range
+            of network services such as file sharing, printing, and email.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 9-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Game Console Operating System</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Game Console Operating Systems (GCOS) are specifically created to
+            run on video game consoles and provide a seamless gaming experience
+            to the users. They are optimized to handle the demands of modern
+            video games and provide features like high-quality graphics, fast
+            load times, and smooth gameplay. GCOSs also offer a user-friendly
+            interface that allows players to easily navigate and interact with
+            their games, as well as other features like online gaming, media
+            playback, and social connectivity. Additionally, GCOSs are designed
+            to be secure and protect the user's data and personal information.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Other Types of Operating System
+    </h1>
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Windows</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Windows is a graphical user interface-based operating system that
+            was first introduced in 1985 by Microsoft. It is designed to run on
+            personal computers and laptops, and has since become one of the most
+            popular operating systems in the world. Windows has a user-friendly
+            interface that allows users to easily interact with their computer,
+            and it supports a wide range of software applications, including
+            productivity tools, games, and multimedia programs. It provides a
+            number of features and functionalities, such as a file explorer,
+            task manager, and control panel, that make it easy for users to
+            manage their computer and its resources. Windows has evolved over
+            the years and has several versions, including Windows 10, which is
+            the latest version of the operating system as of my knowledge
+            cutoff.
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Linux</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Linux is a popular choice for servers and enterprise-level
+            applications due to its stability, security, and open-source nature.
+            Linux is also known for its customization options, which allow users
+            to tailor the operating system to their specific needs and
+            preferences. Linux is based on a Unix-like kernel and provides a
+            wide range of tools for software development, system administration,
+            and other tasks. The source code of Linux is freely available,
+            allowing users and developers to modify and redistribute the
+            operating system. Due to its popularity, many software applications
+            and hardware devices are supported by Linux, making it a versatile
+            option for many different types of computing tasks.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>macOS</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            macOS, also known as Mac OS X, is a Unix-based graphical user
+            interface operating system that is developed by Apple and used
+            exclusively on the company's line of Macintosh computers. It
+            provides a stable, reliable, and user-friendly interface for
+            performing various tasks, including computing, multimedia and
+            graphic design, and web browsing. The operating system is known for
+            its sleek design, intuitive user interface, and robust security
+            features, making it a popular choice for creative professionals and
+            users who value a premium computing experience. With each new
+            release, macOS introduces new features, improvements to existing
+            ones, and increased performance, making it a powerful and dynamic
+            platform for personal and professional use.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Unix</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Unix is a powerful and highly versatile operating system that was
+            first developed in the late 1960s. It is known for its robust
+            architecture, stability, and ability to support multiple users and
+            tasks simultaneously. Unix is widely used in server environments, as
+            well as for workstations and mainframes, due to its scalability and
+            ability to handle large amounts of data and complex computing tasks.
+            The Unix operating system provides a rich set of tools for system
+            administrators, developers, and users, making it a popular choice
+            for mission-critical applications in industries such as finance,
+            healthcare, and government.
+          </p>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Chrome OS</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Chrome OS is a simple and secure operating system that was designed
+            by Google for use on Chromebook laptops. Unlike traditional
+            operating systems, Chrome OS relies heavily on cloud computing and
+            web-based applications, making it an ideal choice for people who do
+            most of their computing online. It is also a lightweight operating
+            system, which means it requires fewer resources and is less prone to
+            slowing down or crashing than more complex operating systems.
+            Additionally, Chrome OS has a fast startup time and is easy to use,
+            making it a popular choice for students, teachers, and anyone
+            looking for a simple and reliable computing experience.
+          </p>
+        </div>
+      </div>
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Android</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Android is an open-source, Linux-based operating system designed
+            specifically for mobile devices, such as smartphones and tablets. It
+            is the most widely used mobile operating system in the world, with
+            over 2 billion active devices. Android provides a user-friendly
+            interface and supports a wide range of applications, from
+            productivity tools to games and social media. The operating system
+            is designed to be highly customizable, allowing manufacturers to
+            tailor it to their specific needs and adding their own
+            customizations and user interface elements. It is also regularly
+            updated with new features and security improvements by Google.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 7-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>iOS</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            iOS (iPhone Operating System) is a mobile operating system developed
+            by Apple Inc. for its iPhone and iPad devices. It is known for its
+            user-friendly interface, robust security features, and integration
+            with Apple's suite of productivity and multimedia applications. iOS
+            is considered one of the most secure mobile operating systems and is
+            frequently updated to address security vulnerabilities and provide
+            new features to users. The operating system is tightly integrated
+            with Apple's hardware, allowing for a seamless and consistent user
+            experience across devices. Additionally, iOS is known for its strict
+            app store policies, which help to ensure that all applications
+            available for the platform are of high quality and free from malware
+            or other security threats.
+          </p>
+        </div>
+      </div>
+      <!--Card 8-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>BSD</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Berkeley Software Distribution (BSD) is a family of Unix-based
+            operating systems that originated from the University of California,
+            Berkeley. BSD is known for its high performance, reliability, and
+            security, making it a popular choice for critical systems such as
+            servers, workstations, and scientific computing environments. BSD
+            operating systems are based on the original Unix operating system
+            and offer many of the same features and utilities. BSD includes
+            several different distributions, including FreeBSD, NetBSD, and
+            OpenBSD, each with its own unique features and focus. BSD systems
+            are highly customizable, with a large and active community of
+            developers who contribute to the development and maintenance of the
+            operating system.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 9-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>IBM OS/2</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            IBM OS/2 was a proprietary operating system developed by IBM and
+            Microsoft, released in 1987. It was designed as a successor to
+            MS-DOS and was aimed at providing a more advanced and powerful
+            operating system for IBM personal computers. IBM OS/2 was primarily
+            used on IBM's PS/2 line of computers and was also available for
+            other IBM-compatible computers. The operating system featured
+            support for virtual memory, preemptive multitasking, and a graphical
+            user interface. It was one of the first operating systems to support
+            long filenames and was known for its stability and security
+            features. IBM OS/2 also included a number of productivity tools,
+            such as a file manager, text editor, and calculator, as well as a
+            range of compatibility and networking features.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outro  Operating System -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Different Technologies Applied In Operating System
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Operating systems use different technologies to provide a stable and
+      secure environment for the user. These technologies include managing
+      virtual memory, organizing files, managing processes and tasks,
+      facilitating network communication, ensuring security, and controlling
+      devices. Additionally, operating systems also have graphical user
+      interfaces that allow users to interact with the system in a user-friendly
+      manner.
+    </h1>
+
+    <!-- Video Operating System -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-neutral-900">
+      Welcome To My Video In Operating System
+    </h1>
+    <iframe
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/wuVtJ_x24p0"
+      title="Operating System"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-xl text-neutral-50">
+              VloggersTV is a video content platform that aims to bring the
+              latest news, trends, and insights from the world of vlogging.
+            </h3>
+            <p class="my-2 text-neutral-50 font-medium">
+              Our mission is to empower content creators to share their stories,
+              connect with their audience, and grow their online presence. Join
+              us today and become part of the VloggersTV community!
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Navigation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            Welcome To My Data Format
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro Data Format -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      What is a Data Format
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Data format refers to the way data is organized and structured in a
+      computer system. It can refer to the format of individual data elements,
+      such as text, numbers, images, or audio, as well as the overall structure
+      of the data, such as tables, lists, or databases. Data formats can vary
+      widely and can include plain text, binary files, structured data formats
+      like XML or JSON, and proprietary formats used by specific software
+      applications. The choice of data format is typically determined by the
+      intended use of the data and the specific requirements of the application
+      that will be using the data.
+    </h1>
+
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Importance of Data Format
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      The importance of data format lies in its ability to efficiently and
+      accurately represent and communicate data. A well-defined data format
+      helps ensure that data can be easily understood and processed by different
+      software programs, hardware systems, and users. For example, if data is
+      stored in an easily accessible and standardized format, it can be shared
+      and used by multiple applications, allowing for greater collaboration and
+      integration of systems. Proper data formatting also helps reduce data
+      storage space, improve data processing times, and increase the accuracy of
+      data processing. In addition, data formats play a crucial role in data
+      security and privacy by providing a way to control access to sensitive
+      information. They also provide a way to verify the integrity of data and
+      ensure that it has not been tampered with during transit or storage. In
+      conclusion, the proper use of data formats is critical for effective and
+      efficient data communication, processing, and management in a variety of
+      industries and applications.
+    </h1>
+
+    <!-- Cards -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Most Common Data Types
+    </h1>
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Numeric Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Numeric data types are a class of data formats that are used to
+            represent numerical values. The most commonly used numeric data
+            types include integers, floating-point numbers, and complex numbers.
+            Integers are whole numbers that can be positive, negative, or zero.
+            Floating-point numbers are numbers with fractional values that are
+            represented with a decimal point. Complex numbers are numbers that
+            consist of a real part and an imaginary part, and are commonly used
+            in mathematical and scientific calculations. These numeric data
+            types are essential for representing mathematical operations and are
+            widely used in various applications such as scientific simulations,
+            financial analysis, and data processing. They play a crucial role in
+            the accurate representation of numerical data and ensure the
+            precision and efficiency of calculations.
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Character And String Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Character and string data types are an important part of data
+            formats as they are used to represent and store text-based
+            information. These data types include characters, which are single
+            letters or symbols, strings, which are sequences of characters, and
+            symbols, which are a special type of string used to represent
+            mathematical or logical operators. They are typically used to store
+            names, addresses, titles, and other types of text information. One
+            of the key features of character and string data types is that they
+            are flexible and can be easily manipulated and manipulated to
+            produce new text information. These data types play an important
+            role in data processing and analysis and are used in a variety of
+            applications, including databases, text processing software, and
+            communication systems.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Boolean Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Boolean data types are fundamental building blocks in computer
+            programming and are used to represent binary data - either true or
+            false, represented as 1 or 0 respectively. Boolean data types are
+            used in decision-making statements, conditional statements, and
+            logic operations. They are essential in the implementation of
+            algorithms and play a significant role in the control flow of
+            programs. For instance, in an if-else statement, a Boolean data type
+            is used to determine whether a certain condition is met, and based
+            on that, different code blocks are executed. Boolean data types are
+            also used in database management systems, where they are used to
+            specify the type of data stored in a database column and to perform
+            searches based on binary conditions. In conclusion, Boolean data
+            types are crucial for the proper functioning of computer systems and
+            play a vital role in computer programming.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Date And Time Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Date and time data types are essential for various applications and
+            databases as they provide a standard way of representing and
+            manipulating date and time values. They help to eliminate human
+            errors and inconsistencies that can occur when manually recording
+            and processing time-sensitive information, and provide a consistent
+            format for data exchange between systems. In addition, date and time
+            data types offer features such as time zone support, date
+            arithmetic, and date formatting, which make them an ideal choice for
+            various time-sensitive applications. Whether it is tracking
+            appointments, recording transactions, or managing deadlines, the
+            importance of date and time data types cannot be overstated.
+          </p>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Binary Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Binary data types are an essential data format used in computer
+            systems to store and manipulate binary data, which is data that is
+            stored as a sequence of 0s and 1s. These data types are used to
+            represent binary data, including large binary files such as images,
+            videos, and audio files. Binary large objects (BLOBs) are large data
+            files stored in binary format, and binary data streams are used to
+            represent continuous binary data, such as audio or video streams.
+            The use of binary data types provides efficient storage and
+            retrieval of large binary data, allowing it to be stored and
+            manipulated by computer systems in a compact and efficient manner.
+            Additionally, binary data types are also used in various
+            applications and technologies, including cryptography, data
+            compression, and storage of binary data in databases.
+          </p>
+        </div>
+      </div>
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Array Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Array data types are a collection of multiple values of the same
+            data type, stored in contiguous memory locations. Arrays allow for
+            efficient storage and retrieval of data and are used in many
+            applications, from simple programs that store a list of numbers, to
+            complex systems that manage large amounts of data. The size of an
+            array is fixed, meaning that once an array is created, its size
+            cannot be changed. However, arrays can be indexed, meaning that
+            individual elements can be accessed and manipulated. Arrays can be
+            one-dimensional, meaning that they have a single row of elements, or
+            multi-dimensional, meaning that they have multiple rows and columns
+            of elements. Multi-dimensional arrays are useful for representing
+            complex data structures, such as matrices and tables, and are used
+            in fields such as mathematics, computer science, and engineering.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 7-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Structured Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Structured data types are used to represent structured data, such as
+            tables or records. Structured data refers to data that is organized
+            into a specific structure, such as a database table or spreadsheet,
+            and is stored in a way that allows it to be easily searched and
+            manipulated. Structured data types provide a way to represent this
+            structured data in a computer program or database, allowing it to be
+            easily processed, stored, and retrieved. Examples of structured data
+            types include relational database tables, spreadsheets, and JSON or
+            XML data. These data types are important because they allow for the
+            efficient storage and manipulation of large amounts of data, which
+            is essential for many applications and industries, such as finance,
+            healthcare, and retail.
+          </p>
+        </div>
+      </div>
+      <!--Card 8-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Enumerated Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Enumerated data types are particularly useful in software
+            development, where they provide a convenient way to define and
+            manage a set of predefined values. For example, an enumerated data
+            type can be used to represent a set of status codes, such as
+            "pending", "approved", or "rejected". These status codes can then be
+            used in code logic to determine the next steps in a process or to
+            trigger specific actions. In this way, enumerated data types help to
+            ensure that the software is running as expected and that the logic
+            is accurate. By making use of predefined values and limiting the
+            possible values of a variable, the code is less prone to errors and
+            bugs, and is more maintainable in the long run. Furthermore,
+            enumerated data types also allow for easier debugging and testing,
+            as the set of possible values is well-defined and limited, making it
+            easier to isolate and fix any issues that may arise.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 9-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Object Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Object data types are a fundamental concept in object-oriented
+            programming (OOP) languages such as Java, C++, and Python. In OOP,
+            objects are instances of classes, which define the properties and
+            behavior of the objects. Objects contain data, in the form of
+            attributes, and methods, which define the actions that the object
+            can perform. Object data types allow for the creation and
+            manipulation of objects, which can be used to model real-world
+            entities in software. For example, an object of the class "Car"
+            might have attributes such as "make", "model", "year", and "color".
+            The methods of the class "Car" might include "drive", "stop", and
+            "turn". By creating objects of the class "Car", developers can
+            represent specific cars with unique attributes and behavior. In this
+            way, object data types provide a way to model complex systems and
+            structures in software, making it easier to manage and manipulate
+            data.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 10-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Null Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Null data types, also known as null values, are a special marker
+            used in database systems and programming languages to indicate that
+            a data value does not exist. These values are used to represent the
+            absence of a value and can be considered as a placeholder. In
+            databases, null values are often used to indicate that a particular
+            field has not yet been assigned a value, or that a value is unknown
+            or missing. For example, a person's last name may be unknown and
+            represented by a null value in the database. In programming
+            languages, null values are used to indicate that a variable has been
+            declared but has not been assigned a value.
+          </p>
+        </div>
+      </div>
+      <!--Card 11-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Text Or Character Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Text data types are essential for storing and processing textual
+            information in databases and programming languages. They come in
+            different forms, each suited to a specific use case. The Char data
+            type is used for fixed-length text, Varchar for variable-length
+            text, and Text for large amounts of text. Specialized types like
+            Nchar and Nvarchar support multiple languages. These data types are
+            widely used in many applications and industries to store and process
+            textual information, from names and addresses to product
+            descriptions and customer comments.
+          </p>
+        </div>
+      </div>
+      <!--Card 12-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Spatial Data Types</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Spatial data types are used in GIS and mapping to represent
+            geographic features and locations. Common types include Geometry,
+            Point, Line, and Polygon. There are also specialized types such as
+            MultiPoint, MultiLineString, and MultiPolygon. In programming,
+            spatial data types are often represented using specific libraries or
+            classes, such as the jts library in Java. Understanding coordinate
+            systems and projections is important when working with spatial data.
+            Spatial data types play a crucial role in accurately visualizing and
+            analyzing data in a geographic context, making them an indispensable
+            tool in the field of GIS and mapping.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outro Data Format -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Different Technologies Applied In Data Format
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Different technologies applied in data formats include file formats (e.g.,
+      CSV, JSON, XML), database management systems (e.g., relational databases,
+      NoSQL databases), data storage solutions (e.g., Hadoop, cloud storage),
+      and data compression and encoding techniques (e.g., gzip, base64).
+    </h1>
+
+    <!-- Video Data Format -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-neutral-900">
+      Welcome To My Video In Data Format
+    </h1>
+    <iframe
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/F3kMk6ksKTQ"
+      title="Data Format"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-xl text-neutral-50">
+              VloggersTV is a video content platform that aims to bring the
+              latest news, trends, and insights from the world of vlogging.
+            </h3>
+            <p class="my-2 text-neutral-50 font-medium">
+              Our mission is to empower content creators to share their stories,
+              connect with their audience, and grow their online presence. Join
+              us today and become part of the VloggersTV community!
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Navigation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

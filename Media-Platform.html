@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            Welcome To My Media Platform
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro Media Platform -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      What is a Media Platform
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      A media platform refers to a digital platform or software that provides
+      tools and services for creating, managing, publishing, and sharing various
+      types of media content, such as text, images, videos, and audio. Media
+      platforms enable users to create and publish content, as well as share and
+      distribute it to a wide audience. Some common features and tools available
+      on media platforms include video transcoding, which converts video files
+      from one format to another, downloading, which allows users to download
+      media files for offline viewing or editing, and acknowledgement, which
+      allows users to track how their content is being used or shared. Media
+      platforms are used by a variety of industries and individuals, including
+      content creators, publishers, marketers, and researchers. They can be used
+      for a range of purposes, such as publishing news articles, sharing videos
+      on social media, conducting research studies, or delivering online
+      courses. Popular examples of media platforms include YouTube, Vimeo,
+      Facebook, Twitter, Instagram, and LinkedIn.
+    </h1>
+
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Importance of Media Platform
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Media platforms are of great importance in today's world as they have
+      revolutionized the way we consume, create, and share media content. These
+      platforms have become an essential tool for businesses, content creators,
+      publishers, marketers, and researchers, offering a wide range of benefits.
+      One of the most significant advantages of media platforms is their ability
+      to offer a vast reach and visibility, which allows content creators to
+      connect with a large and diverse audience. This is particularly true for
+      social media platforms, which provide an enormous potential audience for
+      businesses to market their products and services. Similarly, video-sharing
+      platforms like YouTube and Vimeo offer an opportunity for content creators
+      to share their videos with a global audience, potentially reaching
+      millions of viewers.
+    </h1>
+
+    <!-- Cards -->
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>YouTube</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            YouTube is a video-sharing platform that allows users to upload,
+            view, and share videos.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Provides a global reach and an opportunity for content creators to
+            monetize their videos. Offers a diverse range of content, including
+            music, educational videos, and entertainment.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Limited control over ad placement and revenue sharing. Content
+            moderation challenges with respect to hate speech, harassment, and
+            misinformation.
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Facebook</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Facebook is a social networking platform that allows users to
+            connect with friends, family, and businesses.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Provides a vast audience for businesses to market their products and
+            service. Offers tools for creating and managing business pages and
+            ads.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Concerns over data privacy and security. Limited organic reach for
+            business pages.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Twitter</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Twitter is a microblogging platform that allows users to send and
+            read short posts called tweets.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Allows for real-time communication and breaking news updates; Offers
+            a platform for engaging with customers and building brand awareness.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Character limit for tweets can be restrictive; Trolls and hate
+            speech can be a challenge to manage.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Instagram</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Instagram is a photo and video-sharing platform that allows users to
+            share visual content.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Provides a highly visual platform for businesses to showcase their
+            products and services. Offers tools for creating and managing ads
+            and influencer marketing campaigns.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Concerns over influencer fraud and authenticity. Limited ability to
+            include links in posts.
+          </p>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>TikTok</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            TikTok is a short-form video-sharing platform that allows users to
+            create and share short videos.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Offers a highly engaging and creative platform for businesses to
+            reach a younger demographic. Provides tools for creating and sharing
+            short-form video content.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Content moderation challenges with respect to inappropriate content
+            and fake news. Limited options for ad targeting.
+          </p>
+        </div>
+      </div>
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>LinkedIn</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            LinkedIn is a professional networking platform that allows users to
+            connect with other professionals and companies.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Provides a professional network for businesses and individuals to
+            connect and share content. Offers a platform for recruiting and job
+            search.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Limited organic reach for posts. Ad targeting options can be limited
+            compared to other platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outro Media platform -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Conclusion
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Media platforms use various technologies such as cloud-based technology,
+      video transcoding technology, content management systems, streaming
+      technology, data analytics, and artificial intelligence to provide
+      efficient and effective services for creating, distributing, and managing
+      media content. These technologies allow for better storage and
+      accessibility of data, conversion of videos to different formats, easier
+      content creation and collaboration, real-time streaming of content, data
+      analysis for improving user experience, and automation of various tasks.
+    </h1>
+
+    <!-- Video Media platform -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-neutral-900">
+      Welcome To My Video In Media platform
+    </h1>
+    <iframe
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/JLpqyCc2zXY"
+      title="Media platform"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-xl text-neutral-50">
+              VloggersTV is a video content platform that aims to bring the
+              latest news, trends, and insights from the world of vlogging.
+            </h3>
+            <p class="my-2 text-neutral-50 font-medium">
+              Our mission is to empower content creators to share their stories,
+              connect with their audience, and grow their online presence. Join
+              us today and become part of the VloggersTV community!
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Navigation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

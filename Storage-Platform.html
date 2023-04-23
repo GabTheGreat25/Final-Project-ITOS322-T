@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/jpg" href="./images/Gab.jpg?" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Gab's Blog Website</title>
+  </head>
+
+  <body id="box" class="bg-neutral-50">
+    <div class="py-3 px-3 md:px-0 bg-secondary-default">
+      <div class="container m-auto">
+        <nav class="md:flex md:justify-between items-center">
+          <div class="flex justify-between items-center">
+            <h3 class="text-3xl text-neutral-50 my-3 md:px-3">VloggersTV</h3>
+            <div class="text-xl cursor-pointer text-neutral-50 md:hidden">
+              <svg
+                id="show"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <!-- now to make it responsive -->
+          <div class="hidden md:flex flex-col md:flex-row" id="navbar">
+            <a
+              href="index.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Home</a
+            >
+            <a
+              href="blog.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Blogs</a
+            >
+            <a
+              href="about.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-xl hover:text-neutral-primary text-neutral-50 my-3 md:px-3"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+      <hr />
+      <div class="text-center my-20">
+        <div class="mx-auto w-10/12 md:w-7/12">
+          <p class="text-xl md:text-3xl font-bold text-neutral-50 my-5">
+            Welcome To My Fourth Week
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro Storage Platform -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      What is a Storage Platform
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      A storage platform is a type of technology that provides a centralized
+      location to store, organize, and manage data, whether it be for backup,
+      archiving, or other data storage needs. Storage platforms can be
+      implemented in various forms, including direct-attached storage,
+      network-attached storage, storage area networks, cloud storage, and object
+      storage, each with their own specific characteristics and benefits.
+      Overall, storage platforms are essential for organizations that deal with
+      significant amounts of data and require efficient and secure ways to
+      manage it.
+    </h1>
+
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Importance of Storage Platform
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Storage platforms are an essential component of modern business operations
+      as they offer a centralized and efficient means of managing, storing, and
+      accessing vast amounts of data. The importance of storage platforms lies
+      in their ability to provide organizations with a cost-effective and
+      scalable solution to manage data, allowing them to adapt to changing data
+      storage needs without incurring significant costs. Additionally, storage
+      platforms offer a secure way to store data, protecting against data
+      breaches and other cyber threats that can impact business operations. By
+      leveraging storage platforms, organizations can also ensure compliance
+      with various regulations governing data storage, retention, and privacy.
+      Ultimately, storage platforms are critical to enabling effective data
+      management, facilitating data-driven decision making, and supporting
+      overall business growth and success.
+    </h1>
+
+    <!-- Cards -->
+    <div
+      class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i> Cloud Storage Platforms</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Cloud storage platform is a type of storage platform that enables
+            users to store, access, and manage their data over the internet,
+            providing greater accessibility and collaboration across teams and
+            locations.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Cloud storage platforms offer various advantages, such as allowing
+            users to access their data from anywhere with an internet
+            connection, enabling easy sharing and collaboration, and
+            facilitating automatic backups and disaster recovery.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Cloud storage platforms may also have some limitations that
+            organizations should be aware of. One of the main concerns with
+            cloud storage is data security, as storing sensitive data on
+            third-party servers may pose a risk of unauthorized access or data
+            breaches.
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i> Direct-Attached Storage (DAS)</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Direct-Attached Storage (DAS) is a storage platform that connects
+            directly to a server or computer, providing high-speed access to
+            data without the need for a network.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            The advantages of DAS include high performance, low latency, and
+            simple management, as it does not require any additional hardware or
+            network infrastructure.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            However, DAS has limitations such as limited scalability and
+            flexibility, as it is only accessible to the server or computer it
+            is attached to, and it may require additional storage controllers or
+            expansion units to accommodate growing data needs.
+          </p>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Network-Attached Storage (NAS)</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Network-Attached Storage (NAS) is a storage platform that connects
+            to a network, providing shared storage to multiple devices and
+            users.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            The advantages of NAS include easy sharing and collaboration,
+            centralized management, and scalability. NAS also offers additional
+            features such as remote access, backup and recovery, and integration
+            with cloud services.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            However, NAS may have limitations such as slower performance
+            compared to direct-attached storage, and it may require additional
+            network infrastructure and maintenance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="pb-10 px-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!--Card 4-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Storage Area Networks (SAN)</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Storage Area Networks (SAN) is a storage platform that provides
+            high-speed access to data over a dedicated network, typically used
+            for mission-critical applications and large data centers.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            The advantages of SAN include high performance, scalability, and
+            flexibility, as it allows multiple servers and applications to
+            access shared storage. SAN also offers advanced features such as
+            data replication, snapshots, and encryption.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            However, SAN may have limitations such as high cost, complex
+            management, and potential performance bottlenecks.
+          </p>
+        </div>
+      </div>
+      <!--Card 5-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Object Storage</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Object Storage is a storage platform that stores data as objects
+            rather than files, allowing for easier management and scalability of
+            unstructured data such as images, videos, and documents.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            The advantages of object storage include scalability, easy
+            management, and cost-effectiveness, as it allows for the storage of
+            large amounts of unstructured data without requiring expensive
+            hardware or maintenance.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            However, object storage may have limitations such as slower
+            performance compared to other storage platforms, and it may not be
+            suitable for applications that require frequent access to individual
+            files.
+          </p>
+        </div>
+      </div>
+      <!--Card 6-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <div class="px-6 py-4">
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Tape Storage</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            Tape Storage is a storage platform that stores data on magnetic
+            tapes, typically used for backup and archive purposes.
+          </p>
+          <br />
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Advantages</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            The advantages of tape storage include cost-effectiveness, long-term
+            storage capabilities, and offline data protection. Tape storage also
+            offers high capacity and scalability, allowing for the storage of
+            large amounts of data in a small physical footprint.
+          </p>
+          <div class="text-neutral-900 font-bold text-2xl mb-2 text-center">
+            <i>Limitations</i>
+          </div>
+          <p class="text-neutral-800 font-medium text-justify text-xl">
+            However, tape storage may have limitations such as slower access
+            times compared to disk-based storage, and it may require specialized
+            hardware and software to manage and access the data.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outro Storage Format -->
+    <h1 class="text-center text-5xl font-semibold text-neutral-900 pt-1">
+      Conclusion
+    </h1>
+    <h1 class="py-4 px-16 text-justify text-2xl font-semibold text-neutral-600">
+      Storage platforms are an integral part of modern computing systems,
+      offering a way to store, organize, and manage large amounts of data. To
+      meet the varying needs of organizations, storage platforms can be
+      implemented using different technologies, such as hard disk drives (HDDs),
+      solid-state drives (SSDs), tape storage, optical storage, cloud storage,
+      and software-defined storage (SDS). Each technology has its own unique
+      strengths and weaknesses that must be carefully considered when selecting
+      the appropriate storage platform for an organization. For instance, HDDs
+      are relatively inexpensive and offer high capacity, while SSDs offer
+      higher speeds and greater reliability but at a higher cost and lower
+      capacity. Similarly, tape storage is inexpensive and offers high capacity,
+      but it is slower and less convenient to access than other technologies
+      like cloud storage. Ultimately, the choice of storage platform technology
+      depends on factors like capacity, speed, reliability, cost, and security,
+      as well as the specific requirements of the organization.
+    </h1>
+
+    <!-- Video Storage Platform -->
+    <h1 class="text-center text-5xl font-semibold py-4 text-neutral-900">
+      Welcome To My Video In Storage Platform
+    </h1>
+    <iframe
+      class="md:w-3/4 xl:w-full h-screen block mx-auto pb-3 px-6"
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/sIoH1NFaXrY"
+      title="Storage Platform"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <br />
+
+    <!-- Up arrow section -->
+    <span class="grid justify-center items-center">
+      <div class="w-32 h-40">
+        <a href="#" class="scroll-to-top"
+          ><img src="./images/up-arrow.png" alt="arrow"
+        /></a>
+      </div>
+    </span>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-secondary-default">
+      <div class="container mx-auto p-5">
+        <div
+          class="grid grid-col xl:grid-cols-3 lg:grid-cols-3 mx-4 md:grid-cols-2 sm:grid-cols-1 gap-6 my-9"
+        >
+          <div class="my-3">
+            <h3 class="text-4xl text-neutral-50">VloggersTV</h3>
+            <h3 class="my-4 text-xl text-neutral-50">
+              VloggersTV is a video content platform that aims to bring the
+              latest news, trends, and insights from the world of vlogging.
+            </h3>
+            <p class="my-2 text-neutral-50 font-medium">
+              Our mission is to empower content creators to share their stories,
+              connect with their audience, and grow their online presence. Join
+              us today and become part of the VloggersTV community!
+            </p>
+            <button
+              class="underline font-bold text-md text-neutral-primary hover:text-neutral-50"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">Navigation Links</h3>
+            <div>
+              <a
+                href="index.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Home</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="blog.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Blogs</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="about.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >About</a
+              >
+              <div class="pt-3"></div>
+              <a
+                href="contact.html"
+                class="my-3 hover:text-neutral-primary text-neutral-50 text-2xl"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="my-3">
+            <h3 class="text-3xl text-neutral-50">
+              What I Use To Make This Project
+            </h3>
+            <ul>
+              <li class="my-3 text-neutral-50 text-xl">Tailwind</li>
+              <li class="my-3 text-neutral-50 text-xl">SCSS</li>
+              <li class="my-3 text-neutral-50 text-xl">HTML</li>
+              <li class="my-3 text-neutral-50 text-xl">JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const show = document.getElementById("show");
+      const navbar = document.getElementById("navbar");
+      show.addEventListener("click", () => {
+        if (navbar.classList.contains("hidden")) {
+          navbar.classList.add("flex");
+          navbar.classList.remove("hidden");
+        } else {
+          navbar.classList.remove("flex");
+          navbar.classList.add("hidden");
+        }
+      });
+
+      $(document).ready(function () {
+        $(".scroll-to-top").click(function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
